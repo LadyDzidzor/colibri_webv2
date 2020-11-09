@@ -30,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #343a40;
+  color: #1D3557;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
 }
@@ -42,13 +42,64 @@ a {
 
 p {
   line-height: 1.8;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 #what_wedo{
   background-color;
 }
 
+
+.ftco-section-parallax {
+  position: relative; }
+  .ftco-section-parallax .parallax-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    padding: 4em 0;
+    background: #6c63ff; }
+  .ftco-section-parallax .heading-section-white h2 {
+    font-weight: 400 !important; }
+
+    .browse-job {
+  background: #fff;
+  position: relative;
+  z-index: 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px; }
+  .browse-job .icon {
+    position: absolute;
+    top: 0;
+    left: -20px;
+    font-size: 200px;
+    line-height: 1;
+    z-index: -1;
+    color: #e9e8ff; }
+  .browse-job h2 {
+    font-weight: 900; }
+  .browse-job .subheading {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    color: #6c63ff;
+    letter-spacing: 1px; }
+
+
+.img{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+
+  .ftco-section {
+  padding: 7em 0;
+  position: relative; }
+  @media (max-width: 767.98px) {
+    .ftco-section {
+      padding: 6em 0; } }
 /*******************
     2.Helper
 *******************/
@@ -62,8 +113,9 @@ p {
 
 .section {
   position: relative;
-  padding-top: 80px;
+  padding-top: 100px;
   padding-bottom: 80px;
+  background-color:#f8fafe;
 }
 
 .vertical-content {
@@ -127,7 +179,7 @@ p {
 }
 
 .bg-primary {
-  background-color: #2f55d4 !important;
+  background-color: #FA525D!important;
 }
 
 .bg-soft-primary {
@@ -135,28 +187,28 @@ p {
 }
 
 .text-primary {
-  color: #2f55d4 !important;
+  color: #1D3557 !important;
 }
 
 .icon-dual-primary {
-  color: #2f55d4;
-  fill: rgba(47, 85, 212, 0.2);
+  color: #FA525D;
+  fill: rgb(248, 249 ,250);
 }
 
 .btn-primary {
   color: #ffffff;
-  background: #2f55d4;
-  border-color: #2f55d4;
+  background: #1D3557;
+  border-color: #1D3557;
   -webkit-box-shadow: 0 8px 14px rgba(47, 85, 212, 0.2);
           box-shadow: 0 8px 14px rgba(47, 85, 212, 0.2);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.focus, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary .open > .dropdown-toggle.btn-primary {
-  -webkit-box-shadow: 0px 16px 31px -16px #2f55d4;
-          box-shadow: 0px 16px 31px -16px #2f55d4;
-  background: #294dc6;
-  border-color: #294dc6;
+  -webkit-box-shadow: 0px 16px 31px -16px #1D3557;
+          box-shadow: 0px 16px 31px -16px #1D3557;
+  background: #1D3557;
+  border-color: #1D3557;
 }
 
 .btn-outline-primary {
@@ -185,14 +237,14 @@ p {
 }
 
 .icon-dual-success {
-  color: #34D1BF;
-  fill: rgba(52, 209, 191, 0.2);
+  color: #ffffff;
+  fill: rgba(204, 240, 236, 0.2);
 }
 
 .btn-success {
   color: #ffffff;
-  background: #34D1BF;
-  border-color: #34D1BF;
+  background: #1D3557;
+  border-color: #1D3557;
   -webkit-box-shadow: 0 8px 14px rgba(52, 209, 191, 0.2);
           box-shadow: 0 8px 14px rgba(52, 209, 191, 0.2);
 }
@@ -201,8 +253,8 @@ p {
 .btn-success .open > .dropdown-toggle.btn-primary {
   -webkit-box-shadow: 0px 16px 31px -16px #34D1BF;
           box-shadow: 0px 16px 31px -16px #34D1BF;
-  background: #2cc4b3;
-  border-color: #2cc4b3;
+  background: #FA525D;
+  border-color: #FA525D;
 }
 
 .btn-outline-success {
@@ -587,7 +639,7 @@ p {
 }
 
 .bg-light {
-  background-color: #f8fafe !important;
+  /* background-color: #ffffff!important; */
 }
 
 .bg-soft-light {
@@ -814,7 +866,7 @@ p {
     4.Hero section
 *******************/
 .hero-section {
-  padding-top: 275px;
+  padding-top: 230px;
   overflow: hidden;
 }
 
@@ -983,7 +1035,7 @@ p {
     8.Footer
 *******************/
 .footer {
-  background-color: #0f1b42;
+  background-color: rgb(30 53 86);
   color: rgba(255, 255, 255, 0.5);
   padding-top: 80px;
   padding-bottom: 40px;
